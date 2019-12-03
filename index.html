@@ -165,7 +165,7 @@
             //Service Worker Stuff
             if ('serviceWorker' in navigator) {
                 pwaSupport = true;
-                navigator.serviceWorker.register('machotaco24.github.io/sw.js', {scope: '/machotaco24.gihub.io/'}).then(function (result) {
+                navigator.serviceWorker.register('machotaco24.github.io/sw.js', {scope: '/machotaco24.github.io/'}).then(function (result) {
                     console.log('Service Worker Registered');
                     console.log("Scope: " + result.scope);
                     if ('Notification' in window) {

@@ -1,0 +1,277 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*::selection {
+    background: darkgray; 
+}
+
+nav a {
+    display: inline-block;
+    list-style: none;
+    font-family: 'Abel', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+nav ul {
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    padding: 0;
+    background-color: black;
+    border-bottom: 1px black solid;
+}
+
+nav a:hover {
+    color: white;
+}
+
+#nav-logo {
+    height: 100px;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    padding: 15px;
+}
+
+p{
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+    padding: 15px;
+}
+
+@media all and (min-width: 1198px) {
+    #nav-logo {
+        display: roasted;
+    }
+    #small-window-logo {
+        display: none;
+    }
+}
+
+@media all and (max-width: 1198px) {
+    #nav-logo {
+        display: none;
+        padding: 0;
+        margin: 0;
+    }
+    #logo-link {
+        padding: 0;
+        margin: 0;
+    }
+    #small-window-logo {
+        left: 50%;
+        display: block;
+        margin: auto;
+        width: 40%;
+        background-color: black;
+        color: black;
+    }
+    #small-window-logo-div {
+        background-color: black;
+        color: black
+    }
+}
+
+@media all and (max-width: 1002px) {
+    nav a{
+        font-size: 30px;
+    }
+}
+
+@media all and (max-width: 807px) {
+    nav {
+        display: none;
+    }
+    #small-window-logo {
+        margin: auto;
+        width: 294px;
+        display: inherit;
+    }
+    .hamburger {
+        display: none;
+    }
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+    overflow: hidden;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 0px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.hamburger {
+    font:inherit;
+    display:inline-block;
+    overflow:visible;
+    margin:0;
+    padding:23px;
+    cursor:pointer;
+    transition-timing-function:linear;
+    transition-duration:.15s;
+    transition-property:opacity,filter;
+    text-transform:none;
+    color:inherit;
+    border:0;
+    background-color:transparent;
+    float: left;
+}  
+
+.hamburger:hover {
+    opacity:.7
+}
+.hamburger-box {
+    position:relative;
+    display:inline-block;
+    width:40px;
+    height:24px
+}
+
+.hamburger-inner {
+    top:50%;
+    display:block;
+    margin-top:-2px
+}
+
+.hamburger-inner,.hamburger-inner:after,.hamburger-inner:before {
+    position:absolute;
+    width:40px;
+    height:4px;
+    transition-timing-function:ease;
+    transition-duration:.15s;
+    transition-property:transform;
+    border-radius:4px;
+    background-color: white;
+}
+.hamburger-inner:after,.hamburger-inner:before {
+    display:block;
+    content:"";
+}
+.hamburger-inner:before {
+    top:-10px;
+}
+.hamburger-inner:after {
+    bottom:-10px;
+}
+
+.hamburger--minus .hamburger-inner:after,.hamburger--minus .hamburger-inner:before {
+    transition:bottom .08s ease-out 0s,top .08s ease-out 0s,opacity 0s linear
+}
+.hamburger--minus.is-active .hamburger-inner:after,.hamburger--minus.is-active .hamburger-inner:before {
+    transition:bottom .08s ease-out,top .08s ease-out,opacity 0s linear .08s;
+    opacity:0
+}
+.hamburger--minus.is-active .hamburger-inner:before {
+    top:0
+}
+.hamburger--minus.is-active .hamburger-inner:after {
+    bottom:0
+}
+
+@media all and (max-width: 808px) {
+    .hamburger {
+        display: anything;
+    }
+    .closebtn {
+        display: none;
+    }
+}
+@media all and (min-width: 808px) {
+    .hamburger {
+        display: none;
+    }
+    .closebtn {
+        display: anything;
+    }
+
+}
+
+@media all and (max-width: 380px) {
+    .hamburger {
+        padding: 13px;
+    }
+    #small-window-logo {
+        width: 200px;
+    }
+}
+
+.col-sm-6 {
+    width: 25%;
+    padding: 0;
+    margin: 0;
+    height: 200px;
+    border: 2px white solid;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.col-sm-6 h1 {
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+    height: 200px;
+}
+
+#grid {
+    background-image: url("images/coolsetup.jpg");
+    background-size: cover;
+}

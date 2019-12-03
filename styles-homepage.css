@@ -1,0 +1,341 @@
+/*General*/
+
+::selection {
+    background: darkgray; 
+}
+
+nav a {
+    display: inline-block;
+    list-style: none;
+    font-family: 'Abel', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+
+nav ul {
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    padding: 0;
+    position: fixed;
+    background-color: white;
+}
+
+nav a:hover {
+    color: black;
+
+}
+
+#addToHomeScreen{
+    display: block;
+    margin-top: 20px;
+    padding: 0px;
+    display: none;
+}
+#addToHomeScreen img{
+    max-width: 57px;
+    margin: 10px;
+    float: left;
+}
+#addToHomeScreen button{
+    background-color: #264de4;
+    color: white;
+    border: 1px #2965f1 solid;
+    margin: 5px 10px;
+} 
+
+#instructions{
+    text-align: center;
+    background-color: #f2f4f4;
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+    left: 20px;
+    width: calc(100%-40px);
+    padding: 0px 10px 10px 10px;
+    display: none;
+}
+#instructions img{
+    max-width: 64px;
+}
+#instructions button{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: #264de4;
+    color: white;
+    border: 1px #2965f1 solid;
+} 
+
+/*Section 1 Properties*/
+
+#section_1 {
+    height: 447px;
+    background-image: url("images/RGBPC.jpg");
+    margin: 0;
+    padding: 0;
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    background-size: cover;
+    color: #ABB2B9;
+    background-position: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#section_1:hover {
+    -webkit-filter: grayscale(0%);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+/*Section 2 Properties*/
+
+#section_2 {
+    height: 447px;
+    background-image: url("images/maxresdefault.jpg");
+    margin: 0;
+    padding: 0;
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    background-size: cover;
+    color: #ABB2B9 ;
+    background-position: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#section_2:hover {
+    -webkit-filter: grayscale(0%);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+/*Section 3 Properties*/
+
+#section_3 {
+    height: 670px;
+    margin: 0;
+    padding: 0;
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    background-size: cover;
+    color: #ABB2B9 ;
+    background-position: center;
+    height: 670px;  
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#section_3:hover {
+    -webkit-filter: grayscale(0%);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+
+}
+
+/*Section 4 Properties*/
+
+#section_4 {
+    height: 447px;
+    background-image: url("images/REDpc.jpg");
+    margin: 0;
+    padding: 0;
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    background-size: cover;
+    color: #ABB2B9 ;
+    background-position: center;
+    height: 447px;  
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#section_4:hover {
+    -webkit-filter: grayscale(0%);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+/*Section 5 Properties*/
+
+#section_5 {
+    height: 447px;
+    background-image: url("images/BuildingPC.jpg");
+    margin: 0;
+    padding: 0;
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    background-size: cover;
+    color: #ABB2B9 ;
+    background-position: center;
+    height: 447px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#section_5:hover {
+    -webkit-filter: grayscale(0%);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+/*Row Properties*/
+
+.row {
+    padding: 0;
+    margin-right: 0px;
+    margin-left: 0px;
+    height: 447px;
+}
+
+#row_2 {
+    height: 670px;
+}
+
+/*Parallax*/
+
+.parallax {
+    background-image: url("images/Parrallax Video.gif");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 100vh;
+    min-height: 100vh;
+
+}
+
+#parrallax-logo {
+    display: block;
+    margin: auto;
+    width: 35%;
+    padding-top: 30vh;
+}
+
+.scrolldown {
+    padding-top: 40vh;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    font-family: 'Abel', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*Small Window Sizing*/
+
+@media all and (max-width: 767px) {
+    .parallax { 
+        display: none; 
+    }
+    #row_2 { 
+        margin-top: 447px; 
+    }
+    #small-screen-logo {
+        display: block; 
+        height: 70px; 
+        width: auto; 
+    }
+}
+
+@media all and (min-width: 767px) {
+    #small-screen-logo { display: none; }
+}
+
+/*Fonts and Headers*/
+
+.row {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.row h1 {
+    padding-left: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
+    position: absolute;
+    z-index: 1;
+}
+
+#small-screen-logo-div {
+    background-color: black;
+}
+
+/*Gallery*/
+
+.slider {
+    display: block;
+    width: 100%;
+    height: 670px;
+    object-fit: cover;
+
+}
+
+.slider-wrapper {
+    width: 100%;
+    height: 670px;
+    position: relative;
+}
+
+.slide {
+    float: left;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 3s linear;
+    display: block;
+    width: 100%;
+    height: 670px;
+    object-fit: cover;
+}
+
+.slider-wrapper > .slide:first-child {
+    opacity: 1;
+}
